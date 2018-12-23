@@ -60,6 +60,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
+    <Content Include="Page_demos\testApplication.aspx" />
     <Content Include="Page_demos\testAspPage.aspx" />
     <Content Include="Page_demos\testEvents.aspx" />
   </ItemGroup>
@@ -73,6 +74,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page_demos\testApplication.aspx.cs">
+      <DependentUpon>testApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page_demos\testApplication.aspx.designer.cs">
+      <DependentUpon>testApplication.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page_demos\testAspPage.aspx.cs">
       <DependentUpon>testAspPage.aspx</DependentUpon>
@@ -89,11 +97,19 @@
       <DependentUpon>testEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testSession.aspx.cs">
+      <DependentUpon>testSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testSession.aspx.designer.cs">
+      <DependentUpon>testSession.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="testSession.aspx" />
     <Content Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
