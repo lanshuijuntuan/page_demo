@@ -96,6 +96,20 @@
     <Compile Include="Page_demos\testEvents.aspx.designer.cs">
       <DependentUpon>testEvents.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page_demos\testSession.aspx.cs">
+      <DependentUpon>testSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page_demos\testSession.aspx.designer.cs">
+      <DependentUpon>testSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page_demos\testViewState.aspx.cs">
+      <DependentUpon>testViewState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page_demos\testViewState.aspx.designer.cs">
+      <DependentUpon>testViewState.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="testSession.aspx.cs">
       <DependentUpon>testSession.aspx</DependentUpon>
@@ -109,6 +123,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Page_demos\testSession.aspx" />
+    <Content Include="Page_demos\testViewState.aspx" />
     <Content Include="testSession.aspx" />
     <Content Include="web.config" />
     <None Include="web.Debug.config">
